@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ColorQuiz"
     android:background="@color/azure"
-    android:id="@+id/backColor"
-    style="@style/CustomAnimationButton">
+    android:id="@+id/backColor">
 
     <TextView
         android:id="@+id/colorHexView"
@@ -21,7 +20,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        style="@style/CustomAnimationButton"
         android:id="@+id/button1"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
@@ -32,7 +30,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        style="@style/CustomAnimationButton"
         android:id="@+id/button2"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
