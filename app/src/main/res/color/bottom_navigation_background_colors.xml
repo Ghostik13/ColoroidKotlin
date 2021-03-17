@@ -5,4 +5,5 @@
         android:state_checked="false"/>
     <item android:color="@android:color/white"
         android:state_checked="true"/>
+
 </selector>
