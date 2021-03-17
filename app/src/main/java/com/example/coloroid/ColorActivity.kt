@@ -20,10 +20,10 @@ class ColorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_color)
-        initColorActivity()
+        init()
     }
 
-    private fun initColorActivity() {
+    private fun init() {
         colorName = findViewById(R.id.colorNameView)
         backgroundColor = findViewById(R.id.backGround)
         hexView = findViewById(R.id.hexView)
@@ -56,7 +56,7 @@ class ColorActivity : AppCompatActivity() {
             clipboard.setPrimaryClip(clip)
             Toast.makeText(
                 this,
-                "HEX-code copied to the clipboard",
+                R.string.toast_copy,
                 Toast.LENGTH_SHORT
             ).show()
         }

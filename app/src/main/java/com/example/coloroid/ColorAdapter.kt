@@ -26,7 +26,8 @@ class ColorAdapter(
         return colors.size
     }
 
-    class ColorViewHolder(view: View, val onClick: (Color) -> Unit): RecyclerView.ViewHolder(view) {
+    class ColorViewHolder(view: View, val onClick: (Color) -> Unit):
+        RecyclerView.ViewHolder(view) {
         private val colorName: TextView = view.findViewById(R.id.colorName)
         private val viewHolder: View = view.findViewById(R.id.row_viewHolder)
         private var currentColor: Color? = null
@@ -39,8 +40,8 @@ class ColorAdapter(
             }
         }
 
-        fun bind(color: Color){
-            currentColor=color
+        fun bind(color: Color) {
+            currentColor = color
             viewHolder.setBackgroundResource(color.color)
             colorName.text = color.name
         }

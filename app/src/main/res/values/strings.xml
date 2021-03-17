@@ -7,4 +7,5 @@
     <string name="quiz">Quiz</string>
     <string name="rowname">ColorName</string>
     <string name="hexcode">hexCode</string>
+    <string name="toast_copy">HEX-code copied to the clipboard</string>
 </resources>

@@ -37,10 +37,10 @@ class ColorQuiz : Fragment() {
 
     override fun onStart() {
         super.onStart()
-        setBack()
+        initBackground()
     }
 
-    private fun setBack() {
+    private fun initBackground() {
         val backgroundColor = view?.findViewById<View>(R.id.backColor)
         val randomColor = generateColor()
         backgroundColor?.setBackgroundColor(randomColor)
@@ -86,7 +86,7 @@ class ColorQuiz : Fragment() {
         if (button.text == trueHex)
             counter++
         else counter--
-        setBack()
+        initBackground()
     }
 
     private fun generateColor(): Int {

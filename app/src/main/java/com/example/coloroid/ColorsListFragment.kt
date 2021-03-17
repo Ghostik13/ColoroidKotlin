@@ -13,9 +13,9 @@ import androidx.recyclerview.widget.RecyclerView
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-const val COLOR_NAME = "param1"
-const val COLOR_BACK = "param2"
-const val COLOR_HEX = "param3"
+const val COLOR_NAME = "COLOR_NAME"
+const val COLOR_BACK = "COLOR_BACK"
+const val COLOR_HEX = "COLOR_HEX"
 
 class RecyclerFragment : Fragment() {
 
@@ -58,7 +58,7 @@ class RecyclerFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_recycler, container, false)
+        val view = inflater.inflate(R.layout.fragment_colors_list, container, false)
         initRecycler(view)
         return view
     }

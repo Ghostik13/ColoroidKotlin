@@ -9,7 +9,7 @@
         android:id="@+id/recyclerFragment"
         android:name="com.example.coloroid.RecyclerFragment"
         android:label="fragment_recycler"
-        tools:layout="@layout/fragment_recycler" />
+        tools:layout="@layout/fragment_colors_list" />
     <fragment
         android:id="@+id/colorQuiz"
         android:name="com.example.coloroid.ColorQuiz"
