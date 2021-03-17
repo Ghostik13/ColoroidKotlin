@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/list"
+        android:icon="@drawable/ic_list_of_colors"
+        android:id="@+id/recyclerFragment"/>
+    <item android:title="@string/quiz"
+        android:icon="@drawable/ic_color_quiz"
+        android:id="@+id/colorQuiz"/>
+</menu>

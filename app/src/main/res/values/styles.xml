@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAnimationButton" parent="@style/Widget.AppCompat.Button">
+        <item name="colorAccent">@color/buttonquiz</item>
+        <item name="colorControlHighlight">@color/bottomnav</item>
+    </style>
+</resources>

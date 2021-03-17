@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_200">#6A1B9A</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text">#000000</color>
+    <color name="bottomnav">#2B2A2A</color>
+    <color name="buttonquiz">#DF000000</color>
+
+    <color name="gray">#555555</color>
+    <color name="ultra">#BB86FC</color>
+    <color name="red">#C62828</color>
+    <color name="cerise">#AD1457</color>
+    <color name="fuchia">#C800FF</color>
+    <color name="purple">#6A1B9A</color>
+    <color name="violet">#4527A0</color>
+    <color name="ultramarine">#283593</color>
+    <color name="skyblue">#1565C0</color>
+    <color name="azure">#0277BD</color>
+    <color name="seagreen">#00838F</color>
+    <color name="jade">#00695C</color>
+    <color name="forestgreen">#2E7D32</color>
+    <color name="green">#FD558B2F</color>
+    <color name="gold">#9E9D24</color>
+    <color name="yellow">#FFE600</color>
+    <color name="goldenrod">#F9A825</color>
+    <color name="apricot">#FF8F00</color>
+    <color name="orange">#EF6C00</color>
+    <color name="redorange">#D84315</color>
+
+
+
+</resources>
