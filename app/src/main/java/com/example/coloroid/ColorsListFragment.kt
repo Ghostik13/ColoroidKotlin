@@ -39,6 +39,26 @@ class RecyclerFragment : Fragment() {
         Color(R.color.apricot, "Apricot", "#FF8F00"),
         Color(R.color.orange, "Orange", "#EF6C00"),
         Color(R.color.redorange, "Redorange", "#D84315"),
+        Color(R.color.ultra, "Ultra", "#BB86FC"),
+        Color(R.color.red, "Red", "#C62828"),
+        Color(R.color.cerise, "Cerise", "#AD1457"),
+        Color(R.color.fuchia, "Fuchia", "#C800FF"),
+        Color(R.color.purple, "Purple", "#6A1B9A"),
+        Color(R.color.violet, "Violet", "#4527A0"),
+        Color(R.color.ultramarine, "Ultramarine", "#283593"),
+        Color(R.color.skyblue, "Skyblue", "#1565C0"),
+        Color(R.color.azure, "Azure", "#0277BD"),
+        Color(R.color.seagreen, "Seagreen", "#00838F"),
+        Color(R.color.jade, "Jade", "#00695C"),
+        Color(R.color.forestgreen, "Forestgreen", "#2E7D32"),
+        Color(R.color.green, "Green", "#FD558B2F"),
+        Color(R.color.gold, "Gold", "#9E9D24"),
+        Color(R.color.yellow, "Yellow", "#FFE600"),
+        Color(R.color.goldenrod, "Goldenrod", "#F9A825"),
+        Color(R.color.apricot, "Apricot", "#FF8F00"),
+        Color(R.color.orange, "Orange", "#EF6C00"),
+        Color(R.color.redorange, "Redorange", "#D84315"),
+
         Color(R.color.gray, "Gray", "#555555")
     )
 
